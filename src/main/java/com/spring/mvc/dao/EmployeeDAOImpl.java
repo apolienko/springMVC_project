@@ -16,7 +16,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     @Autowired
     private SessionFactory sessionFactory;
 
-    @Transactional
     @Override
     public List<Employee> getAllEmployees() {
 
